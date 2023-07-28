@@ -37,8 +37,17 @@ Environment consists of reg_model, agent, adapter and predictor.
     <li> Type make log to compile.
     <li> Type make sim to simulate.
     </ul>
-  <li> Go to ENV/register_files/reg_base_seq_lib.sv to see the various methods invoked in the sequence. Here are some of the RAL methods - <img src = "https://github.com/AlPrime2k1/UVM/blob/main/Verification%20using%20RAL/API.JPG">
+  <li> Go to ENV/register_files/reg_base_seq_lib.sv to see the various methods invoked in the sequence. Here are some of the RAL methods - <br><img src = "https://github.com/AlPrime2k1/UVM/blob/main/Verification%20using%20RAL/API.JPG">
     </ol>
+
+<h2>Future Scope</h2>
+<ul>
+  <li> Add predictor with custom display message.
+  <li> Add support for backdoor access.
+  <li> Add coverge bins and achieve good coverage score.
+  <li> Increase number of registers and make RAL generator scripts.
+</ul>
+<hr>
  
 <footer>
   For more information, contact me here<br>

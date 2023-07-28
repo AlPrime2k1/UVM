@@ -19,7 +19,8 @@ RAL model consists of desired and mirrored values where desired value is the val
 <li> TOP folder consists of top file which contains DUT, interfaces and testcase. 
 </ul><br>
 <h2>Verification Architecture</h2>
-https://github.com/AlPrime2k1/UVM/blob/main/Verification%20using%20RAL/ARCH.JPG</br>
+<img src="https://github.com/AlPrime2k1/UVM/blob/main/Verification%20using%20RAL/ARCH.JPG">
+</br>
 Although this is not the exact architecture used in the project, it is the generic structure for Verification using RAL model.<p>
 As shown in the figure, the registers under reg_file are different registers present in the design. In this project, we have four registers namely - Status, Control, IO and Mem.<br>
 Address map consists of base address as 'h400 while offset value varies for each register. The address of each register is given by adding base address and offset value.<br>
@@ -36,7 +37,7 @@ Environment consists of reg_model, agent, adapter and predictor.
     <li> Type make log to compile.
     <li> Type make sim to simulate.
     </ul>
-  <li> Go to ENV/register_files/reg_base_seq_lib.sv to see the various methods invoked in the sequence. Here are some of the RAL methods - https://github.com/AlPrime2k1/UVM/blob/main/Verification%20using%20RAL/API.JPG
+  <li> Go to ENV/register_files/reg_base_seq_lib.sv to see the various methods invoked in the sequence. Here are some of the RAL methods - <img src = "https://github.com/AlPrime2k1/UVM/blob/main/Verification%20using%20RAL/API.JPG">
     </ol>
  
 <footer>
